@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Abyssinica+SIL&display=swap');
+
+img{
+    max-width: 100%;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+}
+
+
+/*----Inicio de Header----*/
+.fl-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin: 0px;
+
+}
+
+.nirvana-fan{
+    color: yellow;
+    display: flex;
+    margin: 5px;
+}
+
+.fl-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    align-content: center;
+
+
+}
+
+.fl-ul li {
+    margin: 10px;
+
+
+}
+
+.nav-link {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/*----fin de header----*/
+
+/*----inicio de main----*/
+
+.mu-main {
+    color: yellow;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+
+}
+
+
+/*----inicio index----*/
+
+.card-index {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(112, 111, 111));
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+
+.bg-card {
+    display: flex;
+    background-color: rgb(64, 66, 63);
+    padding: 9px 20px;
+    margin: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 370px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.animacion:hover {
+    transform: translate(10px, 20px);
+    transform: scale(1.2);
+    margin: 20px;
+
+}
+
+.animacion2{
+    transform: skew(10deg);
+    animation-duration: 2s;
+}
+
+.border-card {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.co-main {
+    display: grid;
+
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 20px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+.gif{
+    margin: 20px;
+}
+
+.ct-main {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.redes {
+    margin: 5px;
+    padding: 5px;
+
+
+}
+
+.redes:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+
+
+.w-img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.boton {
+    background-color: rgba(14, 203, 255, 0.998);
+    padding: 10px 50px;
+    margin: 10px;
+    border-color: transparent;
+    border-radius: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.di-main {
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.disc{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.gridf{
+    grid-template-columns: auto;
+    gap: 5px;
+}
+
+.aq-main {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding: 10px;
+    justify-content: center;
+}
+
+.hi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+/*----fin de index----*/
+
+/*----fin de main----*/
+
+
+/*----inicio de footer----*/
+
+.bg-footer {
+    background-color: rgb(88, 85, 85);
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.type-white {
+
+    color: rgb(238, 255, 0);
+    margin: 10px;
+    font-size: 20px;
+}
+
+/*----fin de footer----*/
